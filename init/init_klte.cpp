@@ -43,7 +43,7 @@ void vendor_load_properties()
         /* kltedv */
         property_override("ro.build.description", "kltedv-user 6.0.1 MMB29M G900IDVS1CQE1 release-keys");
         set_ro_product_prop("device", "klte");
-        set_ro_product_prop("fingerprint", "samsung/kltedv/klte:6.0.1/MMB29M/G900IDVS1CQE1:user/release-keys");
+        set_ro_product_prop("build.fingerprint", "samsung/kltedv/klte:6.0.1/MMB29M/G900IDVS1CQE1:user/release-keys");
         set_ro_product_prop("model", "SM-G900I");
         set_ro_product_prop("name", "klte");
         gsm_properties("9", "dv");
@@ -51,7 +51,7 @@ void vendor_load_properties()
         /* kltespr */
         property_override("ro.build.description", "kltespr-user 6.0.1 MMB29M G900PVPS3CQD1 release-keys");
         set_ro_product_prop("device", "kltespr");
-        set_ro_product_prop("fingerprint", "samsung/kltespr/kltespr:6.0.1/MMB29M/G900PVPS3CQD1:user/release-keys");
+        set_ro_product_prop("build.fingerprint", "samsung/kltespr/kltespr:6.0.1/MMB29M/G900PVPS3CQD1:user/release-keys");
         set_ro_product_prop("model", "SM-G900P");
         set_ro_product_prop("name", "kltespr");
         property_override("telephony.sms.pseudo_multipart", "1");
