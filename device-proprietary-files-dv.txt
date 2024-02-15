@@ -1,3 +1,0 @@
-## DV blobs - Pinned to haxxed G900IDVS1CPI2_G900IXSA1CPG2_XSA
-# Radio
-lib/libsec-ril.so:vendor/lib/libsec-ril.dv.so|1587fdcaaf6fb42edbff8998ebe1c8e1d2f0a2b1
